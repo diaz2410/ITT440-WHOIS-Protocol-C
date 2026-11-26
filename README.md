@@ -37,11 +37,14 @@ This project demonstrates cross-platform client-server communication over **TCP 
 ```bash
 gcc server.c -o server
 sudo ./server
+```
 
+### 2. Start the WHOIS Client (macOS / Client Terminal)
 
+Open a new terminal window on your MacBook, compile the client, and connect to the server's IP address (`127.0.0.1` via Lima port-forwarding):
 
-
-
-
-
+```bash
+gcc client.c -o client
+./client 127.0.0.1
+```
 
