@@ -67,6 +67,7 @@ int main(int argc, char *argv[]) {
     printf("   - <domain.com>  : Lookup domain record\n");
     printf("   - LIST          : Show all domains\n");
     printf("   - REGISTER <domain> <owner> <YYYY-MM-DD>\n");
+    printf("   - DELETE <domain>\n");
     printf("   - exit          : Quit client\n");
     printf("============================================\n");
 
