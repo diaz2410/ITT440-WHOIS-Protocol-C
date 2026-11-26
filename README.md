@@ -48,3 +48,16 @@ gcc client.c -o client
 ./client 127.0.0.1
 ```
 
+---
+
+## Example Commands & Usage
+
+Once connected inside the interactive `whois>` prompt:
+
+| Command | Description | Example |
+| :--- | :--- | :--- |
+| `<domain>` | Look up registration details for a domain | `test123.edu.my` |
+| `LIST` | View all currently registered domains in RAM | `LIST` |
+| `REGISTER` | Register a new domain record dynamically | `REGISTER zaidnetwork.my Zaid_UiTM 2026-11-27` |
+| `DELETE` | Remove an existing domain record from RAM | `DELETE zaidnetwork.my` |
+| `exit` | Close the client application | `exit` |
